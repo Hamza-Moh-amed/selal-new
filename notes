@@ -1,0 +1,52 @@
+step 1 > User Type
+step 2 > Full Name - Phone - National ID number - Boat Owner Name - Terms & conditions
+step 3 > OTP Verfication
+step 4 > Subscription - Boats - Boat Details - Subscription Plans
+step 5 > payment screen
+step 6 > Submitted successfully - Account waiting admin confirmation
+
+I want you to take these component as reference and then Create a sign up flow as follows:
+User selects 1 out of 4 user types: Fish Producer, Wholesaler , Logistics Partners, Customer
+and then they see
+step 2 >
+Full Name
+Phone Number (+20 format with validation)
+National ID Number
+Company/Boat Owner Name
+Terms & Conditions Agreement (checkbox)
+
+step 3 OTP Verfication
+
+step 4 -->  
+Subscription requirement notice
+Pricing calculator
+Subscription plans
+Payment method selection
+Boat capacity input
+Inputs:
+Number of Boats (dropdown: 1-10)
+Boat Details for each:
+Boat Name
+Boat Registration Number
+Boat Capacity (number of boxes: 50-500)
+Primary Box Size (radio: 20kg/25kg)
+Subscription Plan (radio):
+Monthly: EGP X per boat per month ( Will be dynamic based on the boats numbers )
+Quarterly: EGP Y per boat (5% discount)
+Annual: EGP Z per boat (15% discount)
+Calculations:
+Total Capacity = Sum of all boat capacities
+Monthly Cost = Total Capacity × Box Size Multiplier × Base Rate
+step 5 --> Payment Screen:
+Order summary
+Payment instructions
+Bank transfer details
+Payment confirmation upload
+Inputs:
+Payment Amount Confirmation
+Payment Method Selection (Bank Transfer/Cash/InstaPay)
+Payment Reference Number - InstaPay or Bank Transfer
+Payment Receipt Upload (image)
+Payment Date
+
+Step 6 --> Submitted successfully - Account waiting admin confirmation
